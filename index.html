@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = 
+    data:image/png;base64,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
+            type = "image/x-icon">
+    <title>WE SCHOOL</title>
+
+</head>
+<body>
+    
+    <header>
+        <a href="logo" class="logo">Kareka </a>
+        <nav class="navigation">
+            <a href="#services"> services </a>
+            <a href="#projects"> projects</a>
+            <a href="#contect">contect</a>
+            <a class="top-arrow" href="#"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+                
+    
+    
+        </nav>
+    </header>
+    
+    <section class="main">
+        <div>
+            <h2 >Hey there , I'm kareka !<br><span>Applied technology student </span></h2>
+            <h3>Network Eng UwU</h3>
+            <a href="#projects" class="main-btn">Explore my school </a>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="tittle">services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon ">
+                    <i class="fa-solid fa-chalkboard-user"></i> 
+                </div>
+                <div class="info">
+                <h3>Summer Courses</h3>
+                <p>Specialized courses in networking, programming and marketing that qualify graduates for the labor market, in addition to experience </p>
+                </div>
+            </div>
+            <div class ="card"> 
+                <div class ="icon">
+                    <i class="fa-solid fa-chalkboard-user"></i> 
+
+                </div>
+                <div class="info"> 
+                    <h3> null</h3>
+                    <p>ana mbd*n </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon ">
+                    <i class="fa-sharp fa-solid fa-school"></i>
+                </div>
+                <div class="info">
+                    <h3>School labs</h3>
+                    <p>Specialized courses in networking, programming and marketing that qualify graduates for the labor market, in addition to experience </p>
+            </div>
+            
+            
+            
+        </div>
+        
+       
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2 class="tittle"> projects</h2>
+        <div class="content">
+                <div class="projects-card">
+                        <div class="projects-image">
+                            <img src="images/cor1.jpg"/>
+                        </div>
+                        <div class="projects-info"> 
+                            <p class="projects-category">school facebook page</p>
+                            <strong class="projects-tittle">
+                                <span>network cours</span>
+                                <a href="https://www.facebook.com/TelecomEgypt/photos/a.764490920276655/4403355033056874/" class="more-details">more-details</a>
+                            </strong>
+                        </div>
+
+                </div>
+                <div class="projects-card">
+                    <div class="projects-image">
+                        <img src="images/cor1.jpg"/>
+                    </div>
+                    <div class="projects-info"> 
+                        <p class="projects-category">school facebook page</p>
+                        <strong class="projects-tittle">
+                            <span>network cours</span>
+                            <a href="https://www.facebook.com/TelecomEgypt/photos/a.764490920276655/4403355033056874/" class="more-details">more-details</a>
+                        </strong>
+                    </div>
+
+            </div>
+            <div class="projects-card">
+                <div class="projects-image">
+                    <img src="images/cor1.jpg"/>
+                </div>
+                <div class="projects-info"> 
+                    <p class="projects-category">school facebook page</p>
+                    <strong class="projects-tittle">
+                        <span>network cours</span>
+                        <a href="https://www.facebook.com/TelecomEgypt/photos/a.764490920276655/4403355033056874/" class="more-details">more-details</a>
+                    </strong>
+                </div>
+
+        </div>
+        <div class="projects-card">
+            <div class="projects-image">
+                <img src="images/sco3.jpg"/>
+            </div>
+            <div class="projects-info"> 
+                <p class="projects-category">school facebook page</p>
+                <strong class="projects-tittle">
+                    <span>network cours</span>
+                    <a href="https://www.facebook.com/TelecomEgypt/photos/a.764490920276655/4403355033056874/" class="more-details">more-details</a>
+                </strong>
+            </div>
+
+    </div>
+        <div class="projects-card">
+         <div class="projects-image">
+            <img src="images/sco2.jpg"/>
+            </div>
+            <div class="projects-info"> 
+                <p class="projects-category">school facebook page</p>
+                <strong class="projects-tittle">
+                    <span>network cours</span>
+                    <a href="https://www.facebook.com/TelecomEgypt/photos/a.764490920276655/4403355033056874/" class="more-details">more-details</a>
+                </strong>
+            </div>
+
+        </div>
+        <div class="projects-card">
+            <div class="projects-image">
+                <img src="images/sco1.jpg"/>
+            </div>
+            <div class="projects-info"> 
+                <p class="projects-category">school facebook page</p>
+                <strong class="projects-tittle">
+                    <span>network cours</span>
+                    <a href="https://www.facebook.com/TelecomEgypt/photos/a.764490920276655/4403355033056874/" class="more-details">more-details</a>
+                </strong>
+            </div>
+
+        </div>
+
+                </div>
+        
+    </section>
+    
+    <section  class="contect" id="contect">
+        <a class="tittle"> contact us </a>
+        <div class="content">
+            <div class="contect-card">
+                <div class="icon">
+                <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="info">
+                <h3>phone</h3>
+                <p>01030450550</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+         <p class="footer-tittle">made by <span>@Kareka</span></p>
+         <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
